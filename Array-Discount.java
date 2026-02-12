@@ -40,7 +40,7 @@ class Solution {
             Solution s1=new Solution();
             
             String result=s1.checkCoupon(n, x, y, prices);
-            System.out.println("result");
+            System.out.println(result);
         }
     }
 }
