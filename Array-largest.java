@@ -13,14 +13,14 @@ public class Main {
                 a[i] = scanner.nextInt();
             }
             // Your code goes here
-            int max=a[0];
-            for(int i=1;i<n;i++){
+            int max=Integer.MIN_VALUE;
+            for(int i=0;i<n;i++){
                 if(a[i]>=max)
                     max=a[i];
             }
             
-            int sm=a[0];
-            for(int i=1;i<n;i++){
+            int sm=Integer.MIN_VALUE;
+            for(int i=0;i<n;i++){
                 if(a[i]>=sm && sm<max)
                     sm=a[i];
             }
